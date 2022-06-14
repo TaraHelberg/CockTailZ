@@ -1,7 +1,7 @@
 /*This function loads and assists the drop down navigation menu*/
 // loads on opening of the page
 //click on the button,toggle between hiding and showing the dropdown navigation menu 
-function myFunction() {
+function navMenu() {
     document.getElementById("dropdwn").classList.toggle("show");
   }
   
