@@ -1,8 +1,13 @@
 /*Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Akshar:wght@300&family=Kdam+Thmor+Pro&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
