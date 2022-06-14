@@ -1,9 +1,11 @@
-/*click on the button,toggle between hiding and showing the dropdown navigation menu */
+/*This function loads and assists the drop down navigation menu*/
+// loads on opening of the page
+//click on the button,toggle between hiding and showing the dropdown navigation menu 
 function myFunction() {
     document.getElementById("dropdwn").classList.toggle("show");
   }
   
-  // Close dropdown if clicked outside of it//
+  // Close dropdown if clicked outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.btn')) {
       var dropdown = document.getElementsByClassName("dropdown-nav");
