@@ -6,10 +6,12 @@
     padding: 0;
     border: none;
 }
+
 /* Main body style*/
 body {
     font-family: 'Lato', sans-serif;
 }
+
 /*Background Image style*/
 .background {
     background: url("../images/cocktails-background.jpg") no-repeat center center fixed;
@@ -18,3 +20,12 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*Page Title Style*/
+#pgtitle {
+    font-size: 6em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 0.5em;
+}
+
