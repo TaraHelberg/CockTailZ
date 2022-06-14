@@ -6,8 +6,15 @@
     padding: 0;
     border: none;
 }
-
+/* Main body style*/
 body {
     font-family: 'Lato', sans-serif;
 }
-
+/*Background Image style*/
+.background {
+    background: url("../images/cocktails-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
